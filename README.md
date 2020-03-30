@@ -8,5 +8,5 @@ Integrantes:
 -Luis Fernando Garcia
 
 -Daniel Eduardo Hernandez
-Cod:67632
-cc:1022392048
+
+Cod:67632-cc:1022392048
