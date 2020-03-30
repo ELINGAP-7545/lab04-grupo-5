@@ -8,7 +8,6 @@ Integrantes:
 -Luis Fernando Garcia Romero
 
 Cod: 84948.
-
 CC: 1023913296.
 
 -Daniel Eduardo Hernandez
