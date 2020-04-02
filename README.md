@@ -39,29 +39,6 @@ La funcionalidad del sistema se describe a continuacion:
 1) Decodificacion decimal BCD a 7 segmentos: basicamente se tiene en cuenta la tabla de equivalencias presentada a continuacion:
 
 
-DECIMAL  BCD   7 SEGMENTOS
- 	 	 
-     
-0         0000       0000001
-
-1         0001       1001111
-
-2         0010       0010010
-
-3         0011       0000110
-
-4         0100       1001100
-
-5         0101       0100100
-
-6         0110       0100000
-
-7         0111       0001111
-
-8         1000       0000000
-
-9         1001       0000100
-   
 2) Identificacion de decenas de miles, miles, centenas, decenas y unidades: Para la identificacion de cada una de las cantidades y por tanto el numero que se visualizará en cada display se implementó el siguiente algoritmo:
  
 
