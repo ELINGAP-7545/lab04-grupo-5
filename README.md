@@ -50,7 +50,10 @@ Diagrama estructural:
 
 
 
-
+``` [verilog]
+Código en 
+varias líneas
+```
 
 
 
