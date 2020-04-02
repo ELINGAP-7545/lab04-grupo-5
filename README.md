@@ -18,17 +18,17 @@ visualizacion dinamica de numero decimal de 16 bits en 5 display de 7 segmentos.
 
 Descripcion:
 
-Un numero decimal de 16 bist sin signo, es aquel que comprende desde la cantidad 0 hasta la cantidad 65535, razon por la cual para vizualizar este tipo de dato se usarán 5 display de 7 segmentos mediante visualizacion dinamica.
+Un numero decimal de 16 bist sin signo, es aquel que comprende desde la cantidad 0 hasta la cantidad 65535, razon por la cual para vizualizar este tipo de dato se usarÃ¡n 5 display de 7 segmentos mediante visualizacion dinamica.
 
 La visualizacion dinamica es implementada cuando se requiere visualizar datos en mas de un display de 7 segmentos, esto con el fin de ahorrar pines de conexion en el circuito integrado, como lo es en este caso la FPGA.
 
-En la mayoría de los casos, los 7 pines de los cátodos están inter-conectados entre cada display, como se observa en la figura:
+En la mayorÃ­a de los casos, los 7 pines de los cÃ¡todos estÃ¡n inter-conectados entre cada display, como se observa en la figura:
  
-Teniendo en cuenta lo anterior, se debe realizar una multiplexación entre los Anodos de cada Display, con el fin de visualizar en cada display un número diferente. En otras palabras, en cada instante de tiempo, solo un display se encuentra activo. En este sentido, se debe garantizar que el destello en la visualización entre cada display no se perciba. Para ello, cada display debe activarse máximo cada 16 ms.
+Teniendo en cuenta lo anterior, se debe realizar una multiplexaciÃ³n entre los Anodos de cada Display, con el fin de visualizar en cada display un nÃºmero diferente. En otras palabras, en cada instante de tiempo, solo un display se encuentra activo. En este sentido, se debe garantizar que el destello en la visualizaciÃ³n entre cada display no se perciba. Para ello, cada display debe activarse mÃ¡ximo cada 16 ms.
 
 Caja negra:
 
-El diseño de la caja negra para la implementacion del ejercicio planteado es el siguiente:
+El diseÃ±o de la caja negra para la implementacion del ejercicio planteado es el siguiente:
 
  
 
@@ -37,20 +37,20 @@ Descripcion funcinal:
 La funcionalidad del sistema se describe a continuacion:
 
 1) Decodificacion decimal BCD a 7 segmentos: basicamente se tiene en cuenta la tabla de equivalencias presentada a continuacion:
-DECIMAL	BCD	7 SEGMENTOS
- 	 	 
-0	0000	 0000001
-1	 0001	 1001111
-2	 0010	 0010010
-3	 0011	 0000110
-4	 0100	 1001100
-5	 0101	 0100100
-6	 0110	 0100000
-7	 0111	 0001111
-8	 1000	 0000000
-9	 1001	 0000100
+DECIMAL     	BCD	       7 SEGMENTOS
+Â 	Â 	Â 
+0	          0000	       Â 0000001
+1	         Â 0001	Â        1001111
+2	         Â 0010	       Â 0010010
+3	         Â 0011	Â        0000110
+4	Â          0100	Â        1001100
+5	         Â 0101	Â        0100100
+6	Â          0110	Â        0100000
+7	         Â 0111	Â        0001111
+8	Â          1000	Â        0000000
+9	Â          1001	       Â 0000100
    
-2) Identificacion de decenas de miles, miles, centenas, decenas y unidades: Para la identificacion de cada una de las cantidades y por tanto el numero que se visualizará en cada display se implementó el siguiente algoritmo:
+2) Identificacion de decenas de miles, miles, centenas, decenas y unidades: Para la identificacion de cada una de las cantidades y por tanto el numero que se visualizarÃ¡ en cada display se implementÃ³ el siguiente algoritmo:
  
 
 Diagrama estructural:
