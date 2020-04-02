@@ -51,7 +51,7 @@ Diagrama estructural:
 
 
 ```verilog
-module BCDtoSSeg (BCD, SSeg, an);
+module BCDtoSSeg (BCD, SSeg, an); // este linea indica el nombre del módulo inicial  y nos sirve para .....
 
   input [3:0] BCD;
   output reg [0:6] SSeg;
