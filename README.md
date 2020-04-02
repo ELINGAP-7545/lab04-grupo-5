@@ -43,6 +43,7 @@ La funcionalidad del sistema se describe a continuacion:
  
 
 Diagrama estructural:
+[image](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab03-BCD2SSeg/doc/BCD2SSeg.jpg)
  
 
 
