@@ -50,7 +50,7 @@ Diagrama estructural:
 
 
 
-``` [verilog]
+```verilog
 module BCDtoSSeg (BCD, SSeg, an);
 
   input [3:0] BCD;
