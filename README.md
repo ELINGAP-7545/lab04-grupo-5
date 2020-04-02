@@ -44,7 +44,7 @@ La funcionalidad del sistema se describe a continuacion:
 
 Diagrama estructural:
 
-![image](https://www.steren.com.co/media/catalog/product/cache/b69086f136192bea7a4d681a8eaf533d/image/17001ab86/display-de-7-segmentos-catado-comun-de-12-7-mm-0-5-pulgadas.jpg)
+![image](https://github.com/ELINGAP-7545/lab04-grupo-5/blob/master/figs/display7s.jpg)
  
 
 
