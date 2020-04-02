@@ -32,11 +32,11 @@ El diseño de la caja negra para la implementacion del ejercicio planteado es el
 
  
 
-Descripcion funcinal:
+## Descripcion funcional:
 
 La funcionalidad del sistema se describe a continuacion:
 
-1) Decodificacion decimal BCD a 7 segmentos: basicamente se tiene en cuenta la tabla de equivalencias presentada a continuacion:
+1) **Decodificacion** decimal BCD a 7 segmentos: basicamente se tiene en cuenta la tabla de equivalencias presentada a continuacion:
 
 
 2) Identificacion de decenas de miles, miles, centenas, decenas y unidades: Para la identificacion de cada una de las cantidades y por tanto el numero que se visualizará en cada display se implementó el siguiente algoritmo:
