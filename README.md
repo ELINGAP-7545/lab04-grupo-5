@@ -37,6 +37,8 @@ Descripcion funcinal:
 La funcionalidad del sistema se describe a continuacion:
 
 1) Decodificacion decimal BCD a 7 segmentos: basicamente se tiene en cuenta la tabla de equivalencias presentada a continuacion:
+
+
 DECIMAL  BCD   7 SEGMENTOS
  	 	 
 0       0000     0000001
