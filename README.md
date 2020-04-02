@@ -44,7 +44,7 @@ La funcionalidad del sistema se describe a continuacion:
 
 Diagrama estructural:
 
-![image](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab03-BCD2SSeg/doc/BCD2SSeg.jpg)
+![image](https://www.steren.com.co/media/catalog/product/cache/b69086f136192bea7a4d681a8eaf533d/image/17001ab86/display-de-7-segmentos-catado-comun-de-12-7-mm-0-5-pulgadas.jpg)
  
 
 
