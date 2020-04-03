@@ -13,7 +13,8 @@ CC: 1023913296.
 
 Cod:67632-cc:1022392048
 
-# **visualizacion dinamica de numero decimal de 16 bits en 5 display de 7 segmentos**
+# **VISUALIZACIÓN DINAMICA DE UN NUMERO DECIMAL
+DE 16 BITS EN 5 DISPLAY DE 7 SEGMENTOS**
 
 ## **Descripcion:**
 
