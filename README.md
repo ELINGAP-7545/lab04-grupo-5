@@ -14,7 +14,7 @@ CC: 1023913296.
 Cod:67632-cc:1022392048
 
 
-# **Visualización dinamica de numero decimal en diplay's 7 segmentos**
+# **Implementacion de la visualización en diplay 7 segmentos para numero decimal de 16 bits **
 
 ## **Descripcion:**
 
