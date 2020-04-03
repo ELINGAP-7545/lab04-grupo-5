@@ -13,9 +13,9 @@ CC: 1023913296.
 
 Cod:67632-cc:1022392048
 
-## **visualizacion dinamica de numero decimal de 16 bits en 5 display de 7 segmentos**
+# **visualizacion dinamica de numero decimal de 16 bits en 5 display de 7 segmentos**
 
-### **Descripcion:**
+## **Descripcion:**
 
 Un numero decimal de 16 bist sin signo, es aquel que comprende desde la cantidad 0 hasta la cantidad 65535, razon por la cual para vizualizar este tipo de dato se usarán 5 display de 7 segmentos mediante visualizacion dinamica.
 
@@ -27,13 +27,13 @@ En la mayoría de los casos, los 7 pines de los cátodos están inter-conectados
  
 Teniendo en cuenta lo anterior, se debe realizar una multiplexación entre los Anodos de cada Display, con el fin de visualizar en cada display un número diferente. En otras palabras, en cada instante de tiempo, solo un display se encuentra activo. En este sentido, se debe garantizar que el destello en la visualización entre cada display no se perciba. Para ello, cada display debe activarse máximo cada 16 ms.
 
-#### **Caja negra:**
+## **Caja negra:**
 
 El diseño de la caja negra para la implementacion del ejercicio planteado es el siguiente:
 
  
 
-##### **Descripcion funcional:**
+## **Descripcion funcional:**
 
 La funcionalidad del sistema se describe a continuacion:
 
@@ -43,7 +43,7 @@ La funcionalidad del sistema se describe a continuacion:
 2) Identificacion de decenas de miles, miles, centenas, decenas y unidades: Para la identificacion de cada una de las cantidades y por tanto el numero que se visualizará en cada display se implementó el siguiente algoritmo:
  
 
-###### **Diagrama estructural:**
+## **Diagrama estructural:**
 
 ![image](https://github.com/ELINGAP-7545/lab04-grupo-5/blob/master/figs/display7s.jpg)
  
