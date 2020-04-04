@@ -17,9 +17,10 @@ Cod:67632-CC:1022392048
 # **Implementación de la visualización dinamica en display 7 segmentos para mostrar numero decimal de 16 bits.**
 
 ## **Descripcion:**
+![image](https://github.com/ELINGAP-7545/lab04-grupo-5/blob/master/Images/DISPLAY.jpg)
 
 16 bist sin signo,comprende la cantidad de 0 hasta la cantidad de 65535 en decimal,por lo cual para vizualizar este tipo de dato es necesario usar 5 display de 7 segmentos anodo-común mediante visualizacion dinamica.
-![image](https://github.com/ELINGAP-7545/lab04-grupo-5/blob/master/Images/DISPLAY.jpg)
+
 
 La visualizacion dinamica es implementada cuando se requiere mostar datos en mas de un display de 7 segmentos,mediante la proyeccion de datos por intervalos pequeños de tiempo,este tipo de visualización se realiza con el fin de ahorrar pines de conexion en un circuito integrado ó en este caso la FPGA.
 
