@@ -40,6 +40,8 @@ El diseño de la caja negra para la implementacion del ejercicio planteado es el
 
 La funcionalidad del sistema se describe a continuacion:
 
+![image](https://github.com/ELINGAP-7545/lab04-grupo-5/blob/master/Images/tabla.png)
+
 1) Decodificacion decimal BCD a 7 segmentos: basicamente se tiene en cuenta la tabla de equivalencias presentada a continuacion:
 
 
