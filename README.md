@@ -32,6 +32,8 @@ Teniendo en cuenta lo anterior, se debe realizar una multiplexación entre los A
 
 El diseño de la caja negra para la implementacion del ejercicio planteado es el siguiente:
 
+![image](https://github.com/ELINGAP-7545/lab04-grupo-5/blob/master/Images/bcd%20a%207seg.png)
+
  
 
 ## **Descripcion funcional:**
@@ -46,7 +48,7 @@ La funcionalidad del sistema se describe a continuacion:
 
 ## **Diagrama estructural:**
 
-![image](https://github.com/ELINGAP-7545/lab04-grupo-5/blob/master/figs/display7s.jpg)
+![imagen](https://github.com/ELINGAP-7545/lab04-grupo-5/blob/master/figs/display7s.jpg)
  
 
 
