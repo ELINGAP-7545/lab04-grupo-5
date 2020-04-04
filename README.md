@@ -11,14 +11,14 @@ CC: 1023913296.
 
 -Daniel Eduardo Hernandez
 
-Cod:67632-cc:1022392048
+Cod:67632-CC:1022392048
 
 
 # **Implementación de la visualización dinamica en display 7 segmentos para mostrar numero decimal de 16 bits.**
 
 ## **Descripcion:**
 
-Un numero decimal de 16 bist sin signo, es aquel que comprende desde la cantidad 0 hasta la cantidad 65535, razon por la cual para vizualizar este tipo de dato se usarán 5 display de 7 segmentos mediante visualizacion dinamica.
+Un numero decimal de 16 bist sin signo, es aquel que comprende desde la cantidad 0 hasta la cantidad 65535,por lo cual para vizualizar este tipo de dato se usarán 5 display de 7 segmentos mediante visualizacion dinamica.
 
 La visualizacion dinamica es implementada cuando se requiere visualizar datos en mas de un display de 7 segmentos, esto con el fin de ahorrar pines de conexion en el circuito integrado, como lo es en este caso la FPGA.
 
