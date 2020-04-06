@@ -15,6 +15,7 @@ module testbench;
 	
 
 	// Instantiate the Unit Under Test (UUT)
+     //display
 	display uut (
 	
 		.num1(numero), 
