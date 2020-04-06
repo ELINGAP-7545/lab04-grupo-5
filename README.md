@@ -59,6 +59,9 @@ La funcionalidad del sistema se describe a continuacion:
 ## **Diagrama estructural:**
 
 ![image](https://github.com/ELINGAP-7545/lab04-grupo-5/blob/master/Images/diagrama%20estructural.png)
+
+Contamos con una entrada de 16 bits, una seccion de comparadores donde se realiza la comparacion de la cantidad de entrada para 
+identificar las cantidades de DM,M,C,D,U segun se determine por la cantidad ingresada, en la seccion de contadores la iteracion del ciclo de comparacion, de esta seccion va la salida BCD que es la visualización de las cantidades en los display(7bits).
  
 
 
