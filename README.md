@@ -30,7 +30,8 @@ En la mayoría de los casos, los 7 pines de los cátodos están inter-conectados
  
 Teniendo en cuenta lo anterior, se realizar una multiplexación de los Anodos de cada Display necesarios para la visualizacion del dato requerido, esto con el fin de descomponer el dato en cada uno de los display(una unidad por cada display). En otras palabras, en cada instante de tiempo, solo un display se encuentra activo. En este sentido, se debe garantizar que el destello en la visualización entre cada display no se perciba para engañar al ojo. Para ello, cada display debe tener un tiempo de activación máximo cada 16 ms.
 ![image](https://github.com/ELINGAP-7545/lab04-grupo-5/blob/master/Images/DISPLAYS.jpg)
-a continuación en la simulacion de puede ver aun mejor la descomposicion de el numero de 16 bits por ejemplo en la simulacion realizada por nuestro grupo vemos el binario **0100111000100111** el cual en decimal es la cantido de **20007**, notamo como en la señal an muestra de la activacion de cada segmento y la señal sseg muestra la activacion de cada segmento para la visualización del la unidad(DM,M,C,D,U) en el display:
+
+A continuación en la simulacion de puede ver aun mejor la descomposicion de el numero de 16 bits por ejemplo en la simulacion realizada por nuestro grupo vemos el binario **0100111000100111** el cual en decimal es la cantido de **20007**, notamo como en la señal an muestra de la activacion de cada segmento y la señal sseg muestra la activacion de cada segmento para la visualización del la unidad(DM,M,C,D,U) en el display:
 ![image](https://github.com/ELINGAP-7545/lab04-grupo-5/blob/master/Images/simulaciondecimal.png)
 
 ## **Caja negra:**
